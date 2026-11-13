@@ -24,7 +24,7 @@ MODELO = os.path.join(BASE, "modelo_dados")
 OUT = os.path.join(BASE, "GS_CuidaMais_RM576183.pptx")
 
 # Link do vídeo pitch: substitua após publicar no YouTube e exporte o PDF novamente.
-VIDEO_URL = "https://youtu.be/COLE-AQUI-O-LINK-DO-VIDEO"
+VIDEO_URL = "https://www.youtube.com/watch?v=RcjY4MZFVf0"
 
 INTEGRANTES = [("Will Pereira", "RM576183")]
 FONT = "Segoe UI"
