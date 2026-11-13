@@ -19,7 +19,7 @@ from fpdf import FPDF
 from matplotlib.patches import Circle, FancyBboxPatch, Rectangle
 
 OUTPUT_DIR = os.path.dirname(os.path.abspath(__file__))
-RM = "RM576183 / RM576571"
+RM = "RM576183"
 PDF_NAME = "Modelo_Logico_Fisico_CuidaMais.pdf"
 
 # --------------------------------------------------------------------------- #

@@ -1,6 +1,6 @@
 -- =====================================================================
 -- Cuida+ - Modelo Físico (Oracle Database 19c+)
--- RM576183 / RM576571 | Gerado por gerar_modelo_cuidamais.py
+-- RM576183 | Gerado por gerar_modelo_cuidamais.py
 -- Pode ser executado no SQL Developer ou importado no Oracle Data Modeler
 -- (File > Import > DDL File) para gerar os diagramas relacional/lógico.
 -- =====================================================================

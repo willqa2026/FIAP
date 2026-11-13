@@ -1,8 +1,8 @@
 # Exporta a apresentação .pptx para PDF usando o PowerPoint instalado.
 # Uso: powershell -ExecutionPolicy Bypass -File exportar_pdf.ps1
 $base = Split-Path -Parent $MyInvocation.MyCommand.Path
-$pptx = Join-Path $base "GS_CuidaMais_RM576183_RM576571.pptx"
-$pdf  = Join-Path $base "GS_CuidaMais_RM576183_RM576571.pdf"
+$pptx = Join-Path $base "GS_CuidaMais_RM576183.pptx"
+$pdf  = Join-Path $base "GS_CuidaMais_RM576183.pdf"
 
 $app = New-Object -ComObject PowerPoint.Application
 try {

@@ -46,7 +46,7 @@
 
 **Depois de gravar:**
 - [ ] Publicar no YouTube como **Público** e testar o link numa aba anônima.
-- [ ] Enviar o link ao Will, para ele colocar no último slide e gerar o PDF final.
+- [ ] Colocar o link no último slide do .pptx e exportar o PDF final.
 - [ ] Conferir se o vídeo tem **no máximo 3:00**.
 
 > Os tempos foram calculados para uma fala calma. Se passar de 3 minutos, encurte a demonstração (1:00–1:50), que é o trecho mais longo.

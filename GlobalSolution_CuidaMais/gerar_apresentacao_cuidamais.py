@@ -21,12 +21,12 @@ from pptx.util import Emu, Inches, Pt
 BASE = os.path.dirname(os.path.abspath(__file__))
 TELAS = os.path.join(BASE, "telas")
 MODELO = os.path.join(BASE, "modelo_dados")
-OUT = os.path.join(BASE, "GS_CuidaMais_RM576183_RM576571.pptx")
+OUT = os.path.join(BASE, "GS_CuidaMais_RM576183.pptx")
 
 # Link do vídeo pitch: substitua após publicar no YouTube e exporte o PDF novamente.
 VIDEO_URL = "https://youtu.be/COLE-AQUI-O-LINK-DO-VIDEO"
 
-INTEGRANTES = [("Will Pereira", "RM576183"), ("Edson Pereira Alves", "RM576571")]
+INTEGRANTES = [("Will Pereira", "RM576183")]
 FONT = "Segoe UI"
 
 
@@ -221,7 +221,7 @@ text(s, 0.8, 2.05, 6.3, 1.6, "Autonomia e cuidado para a pessoa idosa, com uma a
      "lembra e agenda.", size=26, bold=True, color=WHITE, spacing=1.05)
 text(s, 0.8, 3.75, 6.2, 0.8, "Plataforma web CitizenTech que conecta idosos, famílias e prestadores de "
      "serviço do bairro.", size=15, color=rgb("CDEDE8"))
-text(s, 0.8, 4.75, 6, 0.35, "INTEGRANTES", size=12, bold=True, color=MINT)
+text(s, 0.8, 4.75, 6, 0.35, "INTEGRANTE", size=12, bold=True, color=MINT)
 y = 5.12
 for nome, rm in INTEGRANTES:
     text(s, 0.8, y, 4.2, 0.4, nome, size=18, bold=True, color=WHITE)
@@ -231,7 +231,7 @@ text(s, 0.8, 6.55, 6.4, 0.4, "FIAP · 1TDS · Global Solution 2026 — Desafio C
      color=rgb("9FD9D1"))
 image_fit(s, os.path.join(TELAS, "tela_02_inicio_idoso.png"), 7.6, 1.2, 5.35, 3.1, border=False)
 image_fit(s, os.path.join(TELAS, "tela_03_assistente_ia.png"), 7.6, 4.15, 5.35, 3.1, border=False)
-notes(s, "Capa: nome da solução, integrantes e RMs (requisito do enunciado).")
+notes(s, "Capa: nome da solução, integrante e RM (requisito do enunciado).")
 
 # --------------------------------------------------------------------------- #
 # 2. Identificação da solução
